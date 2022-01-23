@@ -1,0 +1,139 @@
+@import "reset.css";
+.status-bar {
+  display: flex;
+  justify-content: right;
+  height: 48px;
+  padding: 8px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.status-bar_menu {
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  padding-right: 4px;
+  height: 48px;
+}
+
+.status-bar_gmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 33px;
+  margin-left: 15px;
+}
+
+.status-bar_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 39px;
+  margin-left: 15px;
+}
+
+.status-bar_dot9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  margin-left: 23px;
+}
+
+.dots {
+  font-size: 16px;
+}
+
+.status-bar_user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin-left: 14px;
+}
+
+.status-bar_user_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: rgba(117, 148, 148, 0.719);
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_logo {
+  display: flex;
+  justify-content: center;
+  width: 272px;
+  height: 200px;
+  margin-bottom: 38px;
+}
+
+.content_logo_box {
+  height: 92px;
+  margin-top: 108px;
+  text-align: justify;
+  font-size: 73px;
+}
+
+.search {
+  height: 44px;
+  width: 561px;
+  margin-bottom: 16px;
+}
+
+.search_textinput {
+  height: 44px;
+  width: 561px;
+  border-radius: 25px;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.websites {
+  height: 112px;
+  width: 353px;
+  padding: 2px;
+  margin-bottom: 4px;
+  display: flex;
+}
+
+.websites_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 96px;
+  width: 112px;
+  padding-top: 16px;
+}
+.websites_box_circle {
+  height: 48px;
+  width: 48px;
+  background-color: rgba(241, 243, 244, 1);
+  border-radius: 50%;
+}
+.websites_box_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 88px;
+  margin: 6px 12px 0px 12px;
+  font-size: 13px;
+}
