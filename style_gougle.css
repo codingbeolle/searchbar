@@ -252,3 +252,23 @@ body {
     margin-left: 390px;
   }
 }
+
+.websites :hover {
+  background-color: rgba(241, 243, 244, 1);
+  transition-duration: 0s;
+}
+
+.websites :hover div:nth-child(1) {
+  background-color: white;
+  border-radius: 50px;
+}
+
+.status-bar_dot9:hover {
+  background-color: rgba(12, 26, 32, 0.212);
+  border-radius: 50px;
+  transition-duration: 0s;
+}
+
+a:hover :nth-child(1) {
+  border-bottom: 1px solid black;
+}
